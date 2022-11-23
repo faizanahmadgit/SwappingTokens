@@ -1,0 +1,9 @@
+1: Deploy WolfCoin and ApeCoin tokens
+2: Deploy Swapping Contract and in arguments contracts addresses of WolfCoin and ApeCoin given
+3: Minted huge supply of both tokens to Swapping Contract
+3: Mint WolfCoin or ApeCoin to an address
+4: Approve Swapping contract from that contract address for minted tokens
+5: swap(IERC20 token, amount)                   //will get 100 TigerCoin tokens for 100 WolfCoin or ApeCoin tokens
+6: unswap(IERC20 token_,address to, uint amount)  //will get 100 WolfCoin or ApeCoin tokens tokens for 100 TigerCoin
+7: setSwapPrice(2)                            // will get 50 TigerCoin tokens for 100 WolfCoin or ApeCoin tokens
+8: unswap(IERC20 token_,address to, uint amount) //will get 25 WolfCoin or ApeCoin tokens tokens for 50 TigerCoin
